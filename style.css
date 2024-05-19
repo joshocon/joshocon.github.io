@@ -67,8 +67,25 @@ body {
     list-style: none;
     padding: 5px;
     padding-top: 25px;
+    font-family: cursive;
 }
 
 .divider {
     font-size: 20px;
+}
+
+a, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+#active-url, a:active {
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
 }
