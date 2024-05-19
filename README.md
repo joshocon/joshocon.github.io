@@ -1,4 +1,1 @@
-Joshua O'Connor
-This is my personal website.
-
-Math - Physics - Computer Science
+This is my personal website hosted through Github Pages.
