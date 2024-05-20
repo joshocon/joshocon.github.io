@@ -22,21 +22,6 @@ body {
     grid-row-end: 1;
 }
 
-#course-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-start: 2;
-    grid-row-start: 2;
-}
-
-.course {
-    grid-row-start: 2;
-    font-size: small;
-    font-family: serif;
-    list-style:symbols();
-}
-
 .divider {
     font-size: 20px;
 }
