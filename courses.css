@@ -1,14 +1,43 @@
-#course-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-start: 2;
-    grid-row-start: 2;
+@media screen and (max-width: 768px){
+    #course-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .course {
+        grid-row-start: 2;
+        font-size: small;
+        font-family: serif;
+        list-style:symbols();
+    }
+
 }
 
-.course {
-    grid-row-start: 2;
-    font-size: small;
-    font-family: serif;
-    list-style:symbols();
-}
+@media screen and (min-width: 769px) {
+
+    #course-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .course {
+        grid-row-start: 2;
+        font-size: small;
+        font-family: serif;
+        list-style:symbols();
+    }
+}    
+
+
