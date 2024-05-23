@@ -1,3 +1,12 @@
+#about-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    margin: 0;
+}
+
 .section {
     background-color: antiquewhite;
     border-style: solid;
@@ -11,12 +20,6 @@
 @media screen and (max-width: 768px){
 
     #about-container {
-        display: grid;
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        margin: 0;
         padding-top: 180px;
     }
 }
@@ -24,12 +27,6 @@
 @media screen and (min-width: 769px) {
 
     #about-container {
-        display: grid;
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        margin: 0;
         padding-top: 120px;
     }
 }    
