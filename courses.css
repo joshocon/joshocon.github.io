@@ -7,14 +7,14 @@
         grid-column-end: 3;
         grid-row-start: 2;
         margin: 0;
-        padding: 0;
+        padding-top: 180px;
     }
     
     .course {
         grid-row-start: 2;
         font-size: small;
         font-family: serif;
-        list-style:symbols();
+        list-style:circle;
     }
 
 }
@@ -29,14 +29,14 @@
         grid-column-end: 3;
         grid-row-start: 2;
         margin: 0;
-        padding: 0;
+        padding-top: 120px;
     }
     
     .course {
         grid-row-start: 2;
         font-size: small;
         font-family: serif;
-        list-style:symbols();
+        list-style:circle;
     }
 }    
 
