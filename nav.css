@@ -19,7 +19,8 @@ a, a:visited {
 }
 
 a:hover {
-    opacity: 50%;
+    opacity: 90%;
+    color: #e8000d;
 }
 
 #active-url {
@@ -84,8 +85,6 @@ a:hover {
 }
 
 .nav-item {
-    align-self: center;
-    justify-self: center;
     color: white;
     list-style: none;
 }
@@ -116,6 +115,8 @@ a:hover {
         }
     
     .nav-item {
+        align-self: center;
+        justify-self: right;
         padding: 5px;
     }    
 }
