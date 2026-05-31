@@ -4,69 +4,249 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
-    <link rel="stylesheet" href="courses.css">
-    <link rel="stylesheet" href="nav.css">
-    <script src="script.js"></script>
-</head>
-<body> 
-    <header id='nav-container'>
-        <a id='img-container' href="index.html"><img id='KU_LOGO' src="KUMarks_Jayhawk.png"></a>
-        <h3 id="title">Joshua O'Connor</h3>
-        <ul id='nav-list'>
-            <li class='nav-item'><a href="index.html">About</a></li>
-            <li class="nav-item divider">|</li>
-            <li class='nav-item'><a href="resume.html">Resume</a></li>
-            <li class="nav-item divider">|</li>
-            <li class='nav-item'><a href="projects.html">Projects</a></li>
-            <li class="nav-item divider">|</li>
-            <li class='nav-item' id='active-url'><a href="courses.html">Courses</a></li>
-        </ul>
-    </header>
-    <div id='page-container'>
-    <div id="course-container">
-       
-        <ul class="course-subcontainer">
-            <h4>Fall 2023 [4.0 GPA]</h4>
-            <li class='course'>English II</li>
-            <li class='course'>Calculus I</li>
-            <li class='course'>Programming I</li>
-            <li class='course'>Ancient Epic Tales</li>
-        </ul>
-        <ul class="course-subcontainer">
-            <h4>Spring 2024 [4.0 GPA]</h4>
-            <li class='course'>Physics I</li>
-            <li class='course'>Calculus II</li>
-            <li class='course'>Programming II</li>
-            <li class='course'>Intro. to Digital Logic Design</li>
-        </ul>
-        <ul class="course-subcontainer">
-            <h4>Fall 2024 [Currently Enrolled]</h4>
-            <li class='course'>Honors Elementary Linear Algebra</li>
-            <li class='course'>Honors Calculus III</li>
-            <li class='course'>Applied Differential Equations</li>
-            <li class='course'>Discrete Structures</li>
-            <li class='course'>Physics II</li>
-        </ul>
-        <ul class="course-subcontainer">
-            <h4>Spring 2025 [No Plan]</h4>
-            
-        </ul>
-        <ul class="course-subcontainer">
-            <h4>Fall 2025 [No Plan]</h4>
-        </ul>
-        <ul class="course-subcontainer">
-            <h4>Spring 2026 [No Plan]</h4>
-        </ul>
-        <ul class="course-subcontainer">
-            <h4>Fall 2026 [No Plan]</h4>
-        </ul>
-        <ul class="course-subcontainer">
-            <h4>Spring 2027 [No Plan]</h4>
-        </ul>
-</div>
-<footer>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+    <style>
+        :root {
+            --cream: #f7f3ee;
+            --ink: #1a1714;
+            --muted: #7a7168;
+            --accent: #c8552a;
+            --rule: #d9d2c8;
+        }
 
-</footer>
-</div>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            background: var(--cream);
+            color: var(--ink);
+            font-family: 'DM Mono', monospace;
+            font-weight: 300;
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* ── HEADER ── */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 4rem;
+            border-bottom: 1px solid var(--rule);
+            animation: fadeDown .6s ease both;
+        }
+
+        .site-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            letter-spacing: .04em;
+        }
+
+        nav a {
+            font-size: .75rem;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            color: var(--muted);
+            text-decoration: none;
+            margin-left: 2rem;
+            transition: color .2s;
+        }
+        nav a:hover { color: var(--accent); }
+
+        /* ── MAIN CONTENT ── */
+        main {
+            padding: 5rem 4rem;
+            animation: fadeUp .7s ease .2s both;
+        }
+
+        .section-label {
+            font-size: .7rem;
+            letter-spacing: .2em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 2.5rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            line-height: 1.1;
+            margin-bottom: 3rem;
+        }
+
+        /* ── COURSES GRID ── */
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .semester-card {
+            padding: 2rem;
+            background: var(--ink);
+            color: var(--cream);
+            transition: transform .2s, box-shadow .2s;
+            border: 1px solid var(--rule);
+        }
+        .semester-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .semester-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            margin-bottom: .5rem;
+            color: var(--accent);
+        }
+
+        .gpa {
+            font-size: .75rem;
+            letter-spacing: .1em;
+            color: var(--muted);
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .course-list {
+            list-style: none;
+        }
+
+        .course-list li {
+            font-size: .85rem;
+            padding: .4rem 0;
+            color: #a09888;
+            padding-left: 1.2rem;
+            position: relative;
+        }
+
+        .course-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
+        .course-list li:hover {
+            color: var(--cream);
+        }
+
+        /* ── FOOTER ── */
+        footer {
+            padding: 2rem 4rem;
+            border-top: 1px solid var(--rule);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: .72rem;
+            color: var(--muted);
+            letter-spacing: .06em;
+        }
+
+        footer a { color: inherit; text-decoration: none; transition: color .2s; }
+        footer a:hover { color: var(--accent); }
+
+        /* ── ANIMATIONS ── */
+        @keyframes fadeDown {
+            from { opacity: 0; transform: translateY(-12px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(16px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 860px) {
+            header { padding: 1.5rem 2rem; }
+            header nav { display: none; }
+
+            main { padding: 3rem 2rem; }
+            .courses-grid { grid-template-columns: 1fr; }
+
+            footer { padding: 1.5rem 2rem; flex-direction: column; gap: .5rem; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <!-- ── HEADER ── -->
+    <header>
+        <div class="site-name">Your Name</div>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="courses.html">Courses</a>
+        </nav>
+    </header>
+
+    <!-- ── MAIN CONTENT ── -->
+    <main>
+        <p class="section-label">Coursework</p>
+        <h1>Academic Courses</h1>
+
+        <div class="courses-grid">
+            <div class="semester-card">
+                <h3>Fall 2023</h3>
+                <p class="gpa">4.0 GPA</p>
+                <ul class="course-list">
+                    <li>English II</li>
+                    <li>Calculus I</li>
+                    <li>Programming I</li>
+                    <li>Ancient Epic Tales</li>
+                </ul>
+            </div>
+
+            <div class="semester-card">
+                <h3>Spring 2024</h3>
+                <p class="gpa">4.0 GPA</p>
+                <ul class="course-list">
+                    <li>Physics I</li>
+                    <li>Calculus II</li>
+                    <li>Programming II</li>
+                    <li>Intro. to Digital Logic Design</li>
+                </ul>
+            </div>
+
+            <div class="semester-card">
+                <h3>Fall 2024</h3>
+                <p class="gpa">Currently Enrolled</p>
+                <ul class="course-list">
+                    <li>Honors Elementary Linear Algebra</li>
+                    <li>Honors Calculus III</li>
+                    <li>Applied Differential Equations</li>
+                    <li>Discrete Structures</li>
+                    <li>Physics II</li>
+                </ul>
+            </div>
+
+            <div class="semester-card">
+                <h3>Spring 2025</h3>
+                <p class="gpa">No Plan</p>
+            </div>
+
+            <div class="semester-card">
+                <h3>Fall 2025</h3>
+                <p class="gpa">No Plan</p>
+            </div>
+
+            <div class="semester-card">
+                <h3>Spring 2026</h3>
+                <p class="gpa">No Plan</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <span>© 2026 Your Name</span>
+        <span>
+            <a href="mailto:you@email.com">Email</a> &nbsp;·&nbsp;
+            <a href="https://github.com/yourusername">GitHub</a> &nbsp;·&nbsp;
+            <a href="your-cv.pdf">CV</a>
+        </span>
+    </footer>
 </body>
 </html>
