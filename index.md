@@ -83,7 +83,7 @@ title: About
   <a href="https://github.com/joshocon">joshocon</a>
   <span class="label" style="margin-top:0.5rem;">LinkedIn</span>
   <a href="https://www.linkedin.com/in/joshua-oconnor-ku/">joshua-oconnor-ku</a>
-</div>ku</a>
+</div>
     </div>
   </div>
 </div>
