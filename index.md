@@ -46,23 +46,44 @@ title: About
     </p>
 
     <h2>About</h2>
-    <p>
-      I'm a senior mathematics undergraduate at the University of Kansas, a McNair Scholar,
-      and a first-generation college student. My areas of interest broadly are in algebraic combinatorics. I am excited by turning complicated geometry into algebra, and turning that algebra into combinatorics. This has been a common
-      theme among all of my research experiences so far.
-    </p>
-    <p>
-      I founded and run the KU Math Club, and have supported the math department by working as a supplemental intrsuctor, grader, and tutor for a variety of courses.
-    </p>
+<p>
+  I'm a senior mathematics undergraduate at the University of Kansas, a McNair Scholar,
+  and a first-generation college student. In high school, I independently stumbled onto
+  integer partitions while playing with number patterns — I didn't know it was mathematics yet.
+  When I later saw Euler's partition generating function in Prof. Martin's combinatorics course,
+  something clicked into place. That moment has shaped everything since.
+</p>
+<p>
+  My interests are broadly in algebraic combinatorics. I'm drawn to the thread that runs
+  through my research so far: turning complicated geometry into algebra, and turning that
+  algebra into combinatorics. I find the most satisfaction when a hard structural question
+  reduces to something you can count.
+</p>
 
-    <h2>Contact</h2>
-    <div class="contact-row">
-      <span class="label">Email</span>
-      <a href="mailto:j984o820@ku.edu">j984o820@ku.edu</a>
-      <span class="label" style="margin-top:0.5rem;">GitHub</span>
-      <a href="https://github.com/joshocon">joshocon</a>
-      <span class="label" style="margin-top:0.5rem;">LinkedIn</span>
-      <a href="https://www.linkedin.com/in/joshua-oconnor-ku/">joshua-oconnor-ku</a>
+<h2>Currently</h2>
+<div class="currently">
+  <p>REU at Michigan State (SURIEM) — quantum sl₃ knot invariants</p>
+  <p>Honors thesis (prospective) with Prof. Jeremy Martin — chromatic symmetric functions</p>
+  <p>Reading: Rosa Orellana's recent work on the star basis expansion of the CSF</p>
+</div>
+
+<h2>Outside math</h2>
+<p>
+  I founded and run the KU Math Club, and have worked as a supplemental instructor,
+  grader, and tutor across several courses — mentoring first-generation students is
+  something I care about as much as the research. Outside of math I play guitar, sing,
+  and compete at video games.
+</p>
+
+<h2>Contact</h2>
+<div class="contact-row">
+  <span class="label">Email</span>
+  <a href="mailto:j984o820@ku.edu">j984o820@ku.edu</a>
+  <span class="label" style="margin-top:0.5rem;">GitHub</span>
+  <a href="https://github.com/joshocon">joshocon</a>
+  <span class="label" style="margin-top:0.5rem;">LinkedIn</span>
+  <a href="https://www.linkedin.com/in/joshua-oconnor-ku/">joshua-oconnor-ku</a>
+</div>ku</a>
     </div>
   </div>
 </div>
