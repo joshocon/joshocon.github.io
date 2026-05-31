@@ -47,9 +47,9 @@ title: About
 
     <h2>About</h2>
     <p>
-      I'm a junior mathematics undergraduate at the University of Kansas, a McNair Scholar,
-      and a first-generation college student. I'm driven by a love for mathematical structure —
-      especially the surprising connections between combinatorics and algebra.
+      I'm a senior mathematics undergraduate at the University of Kansas, a McNair Scholar,
+      and a first-generation college student. My areas of interest broadly are in algebraic combinatorics. I am excited by turning complicated geometry into algebra, and turning that algebra into combinatorics. This has been a common
+      theme among all of my research experiences so far.
     </p>
     <p>
       I founded and run the KU Math Club, and have supported the math department by working as a supplemental intrsuctor, grader, and tutor for a variety of courses.
