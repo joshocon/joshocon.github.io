@@ -37,7 +37,7 @@ title: About
 
 <div class="about-grid">
   <div>
-    <img src="/photo.jpg" alt="Joshua O'Connor" />
+    <img src="/image.jpeg" alt="Joshua O'Connor" />
   </div>
   <div>
     <h1>Joshua O'Connor</h1>
