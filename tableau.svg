@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220">
+  <style>
+    .cell { fill: #f7f3ee; stroke: #1a3a6b; stroke-width: 1.5; }
+    .cell-filled { fill: #0051a2; stroke: #1a3a6b; stroke-width: 1.5; }
+    .entry { font-family: Georgia, serif; font-size: 22px; fill: #0051a2; text-anchor: middle; dominant-baseline: central; }
+    .entry-light { font-family: Georgia, serif; font-size: 22px; fill: #f7f3ee; text-anchor: middle; dominant-baseline: central; }
+  </style>
+
+  <!-- Row 1: 5 cells -->
+  <rect class="cell-filled" x="0"   y="0"  width="52" height="52"/>
+  <rect class="cell-filled" x="52"  y="0"  width="52" height="52"/>
+  <rect class="cell"        x="104" y="0"  width="52" height="52"/>
+  <rect class="cell"        x="156" y="0"  width="52" height="52"/>
+  <rect class="cell"        x="208" y="0"  width="52" height="52"/>
+  <text class="entry-light" x="26"  y="26">1</text>
+  <text class="entry-light" x="78"  y="26">1</text>
+  <text class="entry"       x="130" y="26">2</text>
+  <text class="entry"       x="182" y="26">3</text>
+  <text class="entry"       x="234" y="26">3</text>
+
+  <!-- Row 2: 3 cells -->
+  <rect class="cell-filled" x="0"   y="52" width="52" height="52"/>
+  <rect class="cell"        x="52"  y="52" width="52" height="52"/>
+  <rect class="cell"        x="104" y="52" width="52" height="52"/>
+  <text class="entry-light" x="26"  y="78">2</text>
+  <text class="entry"       x="78"  y="78">3</text>
+  <text class="entry"       x="130" y="78">4</text>
+
+  <!-- Row 3: 2 cells -->
+  <rect class="cell-filled" x="0"  y="104" width="52" height="52"/>
+  <rect class="cell"        x="52" y="104" width="52" height="52"/>
+  <text class="entry-light" x="26" y="130">3</text>
+  <text class="entry"       x="78" y="130">5</text>
+
+  <!-- Row 4: 1 cell -->
+  <rect class="cell" x="0" y="156" width="52" height="52"/>
+  <text class="entry" x="26" y="182">6</text>
+</svg>
