@@ -48,10 +48,7 @@ title: About
     <h2>About</h2>
 <p>
   I'm a senior mathematics undergraduate at the University of Kansas, a McNair Scholar,
-  and a first-generation college student. In high school, I independently stumbled onto
-  integer partitions while playing with number patterns — I didn't know it was mathematics yet.
-  When I later saw Euler's partition generating function in Prof. Martin's combinatorics course,
-  something clicked into place. That moment has shaped everything since.
+  and a first-generation college student. 
 </p>
 <p>
   My interests are broadly in algebraic combinatorics. I'm drawn to the thread that runs
@@ -83,7 +80,6 @@ title: About
   <a href="https://github.com/joshocon">joshocon</a>
   <span class="label" style="margin-top:0.5rem;">LinkedIn</span>
   <a href="https://www.linkedin.com/in/joshua-oconnor-ku/">joshua-oconnor-ku</a>
-</div>
     </div>
   </div>
 </div>
