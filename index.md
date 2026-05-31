@@ -52,8 +52,7 @@ title: About
       especially the surprising connections between combinatorics and algebra.
     </p>
     <p>
-      I founded and run the KU Math Club, and I work as a calculus supplemental instructor
-      through KU's Kansas Algebra Program. I believe mathematics should be accessible to everyone.
+      I founded and run the KU Math Club, and have supported the math department by working as a supplemental intrsuctor, grader, and tutor for a variety of courses.
     </p>
 
     <h2>Contact</h2>
