@@ -50,7 +50,7 @@ title: CV
 
 <iframe
   class="cv-frame"
-  src="/cv.pdf"
+  src="/JoshO_ConnorCV_SP26_.pdf"
   title="Joshua O'Connor CV">
   <div class="cv-fallback">
     Your browser can't display PDFs inline.
