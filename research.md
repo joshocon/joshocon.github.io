@@ -35,5 +35,5 @@ title: Research
 <p>
   <a href="https://jeremymartinmath.github.io/">Prof. Jeremy Martin</a> — University of Kansas<br />
   <a href="https://reuvenhodges.github.io/">Prof. Reuven Hodges</a> — University of Kansas<br />
-  <a href="https://mrhmath.github.io/"> Dr. Matthew Harper — Michigan State University (SURIEM REU, Summer 2026)
+  <a href="https://mrhmath.github.io/"> Dr. Matthew Harper</a> — Michigan State University (SURIEM REU, Summer 2026)<br />
 </p>
